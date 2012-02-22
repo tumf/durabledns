@@ -9,11 +9,6 @@ SETUP
 
 1. set your environment variable
 
-
- * DURABLEDNS_APIUSER
- * DURABLEDNS_APIKEY
-
-
     export DURABLEDNS_APIUSER={YOUR API USER}
     export DURABLEDNS_APIKEY={YOUR API KEY}
 
