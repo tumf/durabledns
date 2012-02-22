@@ -2,3 +2,5 @@
 .bundle
 Gemfile.lock
 pkg/*
+lib/durabledns/c.rb
+lib/durabledns/test.rb
