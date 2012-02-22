@@ -7,7 +7,7 @@ This software is *UNOFFICIAL* of DurableDNS.
 SETUP
 -----
 
-1. set your environment variable
+### set your environment variable
 
     export DURABLEDNS_APIUSER={YOUR API USER}
     export DURABLEDNS_APIKEY={YOUR API KEY}
