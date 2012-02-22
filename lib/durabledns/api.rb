@@ -11,7 +11,7 @@ module Durabledns
   class Api
     def exec name,*args
       if /Job/ =~ name.to_s
-        require "durabledns/Job/defaultDriver.rb"
+        require "durabledns/job/defaultDriver.rb"
       else
         require "durabledns/#{name}/defaultDriver.rb"
       end
