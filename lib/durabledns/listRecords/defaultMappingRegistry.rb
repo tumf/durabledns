@@ -2,8 +2,8 @@ require 'durabledns/listRecords/default.rb'
 require 'soap/mapping'
 
 module DefaultMappingRegistry
-  EncodedRegistry = ::SOAP::Mapping::EncodedRegistry.new
-  LiteralRegistry = ::SOAP::Mapping::LiteralRegistry.new
+  
+  
   NsListRecordswsdl = "urn:listRecordswsdl"
 
   EncodedRegistry.register(

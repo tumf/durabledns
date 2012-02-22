@@ -2,6 +2,13 @@
 # -*- coding: utf-8 -*-
 $:.unshift(File.expand_path(File.join(File.dirname(__FILE__),'..')))
 require 'durabledns'
+require 'soap/mapping'
+
+module DefaultMappingRegistry
+  EncodedRegistry = ::SOAP::Mapping::EncodedRegistry.new
+  LiteralRegistry = ::SOAP::Mapping::LiteralRegistry.new
+end
+
 module Durabledns
   class Zone
     attr_accessor :origin,:ns,:mbox,:serial,:refresh,:v_retry
@@ -57,6 +64,7 @@ end
 
 if $0 == __FILE__
   api = Durabledns::Api.new
+  p api.zone("hnw.jp.")
   exit
 end
 
