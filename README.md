@@ -1,4 +1,3 @@
-
 a DurableDNS API-Client
 =======================
 
@@ -17,3 +16,7 @@ USE
 
     api = Durabledns::API.new
     p api.exec :listZones
+
+
+
+[![endorse](http://api.coderwall.com/tumf/endorsecount.png)](http://coderwall.com/tumf)
